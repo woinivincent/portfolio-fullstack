@@ -83,9 +83,6 @@ const AdminLogin = () => {
           </form>
         </div>
 
-        <p className="text-center text-gray-400 text-sm mt-6">
-          Usuario por defecto: <span className="text-white font-mono">admin</span> / <span className="text-white font-mono">admin123</span>
-        </p>
       </div>
     </div>
   );
