@@ -3,15 +3,15 @@ import mongoose from 'mongoose';
 const experienceSchema = new mongoose.Schema({
   company: {
     type: String,
-    required: true
+    required: false
   },
   position: {
     type: String,
-    required: true
+    required: false
   },
   duration: {
     type: String,
-    required: true
+    required: false
   },
   startDate: {
     type: String,
