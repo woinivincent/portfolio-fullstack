@@ -3,11 +3,11 @@ import mongoose from 'mongoose';
 const educationSchema = new mongoose.Schema({
   institution: {
     type: String,
-    required: true
+    required: false
   },
   degree: {
     type: String,
-    required: true
+    required: false
   },
   field: {
     type: String,
@@ -15,7 +15,7 @@ const educationSchema = new mongoose.Schema({
   },
   period: {
     type: String,
-    required: true
+    required: false
   },
   startDate: {
     type: String,
