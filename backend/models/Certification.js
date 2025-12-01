@@ -3,15 +3,15 @@ import mongoose from 'mongoose';
 const certificationSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true
+    required: false
   },
   issuer: {
     type: String,
-    required: true
+    required: false
   },
   issueDate: {
     type: String,   // ⬅ ANTES era "date"
-    required: true
+    required: false
   },
   expiryDate: {
     type: String,
