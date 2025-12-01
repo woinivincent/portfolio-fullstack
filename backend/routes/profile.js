@@ -1,5 +1,5 @@
 import express from 'express';
-import Profile from '../models/profile.js';
+import Profile from '../models/Profile.js';
 import { authenticate, isAdmin } from '../middleware/auth.js';
 
 const router = express.Router();
